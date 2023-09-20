@@ -15,3 +15,51 @@
     width: 30px;
     height: 30px;
 }
+.contenido1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+.contenido2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.transparent-card {
+    background-color: transparent !important; /* Fondo transparente */
+    border: none !important; /* Borde transparente */
+    gap: 30px;
+}
+.formulario{
+
+    background-color: black;
+    padding: 100px 200px 100px 200px;
+}
+hr {
+    width: 100%; /* Ancho de la línea */
+    background-color: #ccc; /* Color de fondo de la línea */
+    height: 2px; /* Altura de la línea */
+    border: none; /* Borde invisible */
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(0, 213, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 600px
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+
+}
